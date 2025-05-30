@@ -91,7 +91,7 @@ export default function PreOrderPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            onSubmit={handleSubmit(onSubmit)}
+            onSubmit={() => { }}
             className="bg-white rounded-2xl p-8 shadow-xl border border-emerald-100"
           >
             <div className="grid md:grid-cols-2 gap-6 mb-6">
