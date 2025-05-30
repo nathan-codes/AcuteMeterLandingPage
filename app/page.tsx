@@ -141,9 +141,9 @@ function Header() {
           >
             Support
           </Button>
-          <Button className="bg-emerald-600 hover:bg-emerald-700 text-white">
+          <Link href="/preorder" className="p-2 rounded-md  bg-emerald-600 hover:bg-emerald-700 text-white">
             Pre-order Now
-          </Button>
+          </Link>
         </div>
 
         <button
@@ -1399,7 +1399,10 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white transition-colors">
+                <Link
+                  href="/preorder"
+                  className="hover:text-white transition-colors"
+                >
                   Pre-order
                 </Link>
               </li>
