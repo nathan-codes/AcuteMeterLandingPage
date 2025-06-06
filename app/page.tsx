@@ -318,7 +318,7 @@ function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-6xl md:text-8xl font-bold text-gray-900 mb-6 leading-tight"
         >
-          Smarter Cooking.
+          Smarter Monitoring.
           <br />
           <span className="text-emerald-600">Safer Living.</span>
         </motion.h1>
